@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ejercicio 1</string>
+    <string name = "txt_titulo">Mi primera app</string>
+    <string name = "txt_dato">Ingrese dato</string>
+</resources>
