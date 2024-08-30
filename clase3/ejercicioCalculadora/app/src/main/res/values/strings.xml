@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ejercicioCalculadora</string>
+    <string name="txt_titulo">Calculadora super cool</string>
+    <string name="txt_num1">Ingrese un número</string>
+    <string name="txt_num2">Ingrese un número</string>
+    <string name="txt_resultado">Resultado: </string>
+</resources>
