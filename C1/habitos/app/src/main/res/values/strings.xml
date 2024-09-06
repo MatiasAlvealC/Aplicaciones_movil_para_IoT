@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">habitos</string>
+    <string name="txt_titulo">¿Qué tan saludable eres?</string>
+    <string name="txt_ejercicio">Ingrese el ejercicio</string>
+    <string name="txt_pregunta">Ingrese el ejercicio y cuantos minutos lo realiza:</string>
+    <string name="txt_lunes">Lunes:</string>
+    <string name="txt_martes">Martes:</string>
+    <string name="txt_miercoles">Miercoles:</string>
+    <string name="txt_jueves">Jueves:</string>
+    <string name="txt_viernes">Viernes:</string>
+    <string name="txt_sabado">Sabado:</string>
+    <string name="txt_domingo">Domingo:</string>
+    <string name="bt_calcular">Calcular</string>
+    <string name="txt_total">Tiempo total: </string>
+    <string name="txt_recomendacion"></string>
+</resources>
