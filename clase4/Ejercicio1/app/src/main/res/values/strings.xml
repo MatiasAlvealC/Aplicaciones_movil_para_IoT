@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ejercicio1</string>
+    <string name="txt_titulo">My APP</string>
+    <string name="bt_abrir">Ingrese</string>
+    <string name="txt_usuario">Ingrese usuario</string>
+    <string name="txt_password">Ingrese contraseña</string>
+
+</resources>
