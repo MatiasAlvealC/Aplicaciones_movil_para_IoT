@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ejercicio1</string>
+    <string-array name="opciones">
+        <item>Hipotecario</item>
+        <item>Consumo</item>
+        <item>Automotriz</item>
+    </string-array>
+    <string name="opcion1">20 años</string>
+    <string name="opcion2">30 años</string>
+    <string name="opcionck1">pago 20%</string>
+    <string name="opcionck2">complementando renta</string>
+    <string name="bt1">Enviar datos</string>
+</resources>
