@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">user</string>
+    <string-array name="cake_sizes">
+        <item>Pequeña</item>
+        <item>Mediana</item>
+        <item>Grande</item>
+    </string-array>
+</resources>
