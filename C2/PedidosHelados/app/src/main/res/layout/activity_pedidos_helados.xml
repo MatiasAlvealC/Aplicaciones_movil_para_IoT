@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PedidosHelados">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Selección de tamaño de la torta -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecciona el tamaño del helado"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spinner_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/ice_cream_sizes" />
+
+            <!-- Selección de sabores del helado -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecciona hasta 2 sabores"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_vainilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vainilla" />
+
+            <CheckBox
+                android:id="@+id/checkbox_chocolate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chocolate" />
+
+            <CheckBox
+                android:id="@+id/checkbox_frutilla"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frutilla" />
+
+            <CheckBox
+                android:id="@+id/checkbox_menta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menta" />
+
+            <CheckBox
+                android:id="@+id/checkbox_dulce_de_leche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dulce de Leche" />
+
+            <!-- Selección de acompañamiento -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecciona un acompañamiento"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_accompaniment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_chocolate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chocolate" />
+
+                <RadioButton
+                    android:id="@+id/radio_fruta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Frutas" />
+
+                <RadioButton
+                    android:id="@+id/radio_crema_batida"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crema Batida" />
+            </RadioGroup>
+
+            <!-- Selección del tipo de consumo -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecciona el tipo de consumo"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_consumption"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_takeaway"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Para Llevar" />
+
+                <RadioButton
+                    android:id="@+id/radio_in_store"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="En Local" />
+            </RadioGroup>
+
+            <!-- Selección como lo consumira-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Como se lo desea servir?"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup_eat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_vaso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vaso" />
+
+                <RadioButton
+                    android:id="@+id/radio_cono"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cono" />
+            </RadioGroup>
+
+            <!-- Botón de calcular -->
+            <Button
+                android:id="@+id/calculateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Calcular pedido"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#3F51B5"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/summary_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resumen"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="#3F51B5"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

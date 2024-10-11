@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">PedidosHelados</string>
+    <string-array name="ice_cream_sizes">
+        <item>Pequeño</item>
+        <item>Mediano</item>
+        <item>Grande</item>
+    </string-array>
+</resources>
