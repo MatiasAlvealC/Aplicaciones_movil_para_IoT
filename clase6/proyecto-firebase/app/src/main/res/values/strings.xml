@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">proyecto-firebase</string>
+    <string name="esUsuario">Es Usuario? Login</string>
+    <string name="name">Name</string>
+    <string name="user">UserName</string>
+    <string name="pass">Password</string>
+    <string name="email">Email</string>
+    <string name="Login">Login</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="no">No estas Registrado? registrate</string>
+</resources>
