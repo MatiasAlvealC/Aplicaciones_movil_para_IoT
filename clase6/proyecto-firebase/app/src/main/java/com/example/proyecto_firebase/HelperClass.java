@@ -3,11 +3,11 @@ package com.example.proyecto_firebase;
 public class HelperClass {
     String name, email, password, username;
 
-    public HelperClass(String name, String password, String email, String username) {
+    public HelperClass(String name, String email, String username,  String password) {
         this.setName(name);
-        this.password = password;
         this.email = email;
         this.username = username;
+        this.password = password;
     }
 
     public HelperClass() {
